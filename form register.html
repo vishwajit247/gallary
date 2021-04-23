@@ -1,0 +1,62 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  	<title>Registeration</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <style type="text/css">
+    body{
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+  <h1>Register</h1>
+  <form>
+  <label for="a">First Name:</label>
+  <input id="a" type="Name" placeholder="John" required="">
+  <label for="b">Last Name:</label>
+  <input id="b" type="Name" placeholder="Smith" required="">
+  <div></div>
+  <label for="c">Male</label>
+  <input name="Gender" id="c" type="radio">
+  <label for="d">Female</label>
+  <input name="Gender" id="d" type="radio">
+  <label for="e">Other</label>
+  <input name="Gender" id="e" type="radio">
+  <div></div>
+  <div>
+  <label>Mob No.</label>
+  <input type="digit" name="Mob No">
+</div>
+  <label for="f">Email</label>
+  <input id="f" type="email" placeholder="your email" required="">
+  <label for="g">Password</label>
+  <input id="g" type="password" pattern=".{5,10}" required title="5 to 10 characters" placeholder="your password" required="" >
+ <div></div>
+  <label>Birthday:
+  <select name="Birth month">
+  	<option>Month</option>
+    <option>january</option>
+    <option>February</option>
+  </select>
+  <select name="Birth Day">
+  	<option>Day</option>
+  	<option>01</option>
+  	<option>02</option>
+  	<option>03</option>
+  </select>
+  <select name="Birth Year">
+  	<option>1997</option>
+  	<option>1998</option>
+  	<option>1999</option>
+  	<option>2000</option>
+  </select>
+</label>
+ <div></div>
+I agree to the terms and conditions
+<input type="checkbox" required="">
+<div></div>
+<button>Submit</button>
+  </form>
+  </body>
+  </html>
